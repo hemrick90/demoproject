@@ -6,7 +6,16 @@ public class TwelveDaysofChristmas {
                 case 1 -> System.out.print("first");
                 case 2 -> System.out.print("second");
                 case 3 -> System.out.print("third");
-                default -> System.out.print(day + "th");
+                case 4 -> System.out.print("fourth");
+                case 5 -> System.out.print("fifth");
+                case 6 -> System.out.print("sixth");
+                case 7 -> System.out.print("seventh");
+                case 8 -> System.out.print("eighth");
+                case 9 -> System.out.print("ninth");
+                case 10 -> System.out.print("tenth");
+                case 11 -> System.out.print("eleventh");
+                case 12 -> System.out.print("twelfth");
+
             }
             System.out.println(" day of Christmas\nMy true love sent to me:");
             switch (day) {
